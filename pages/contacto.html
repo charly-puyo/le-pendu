@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body class="body__grid">
+    <header>
+        <div class="header__grid">
+            <!--Logo-->
+            <a href="../index.html">
+            <img class="header__logo" src="../assets/logo.png" alt="logo de le pendu">
+            </a>
+            <!--¿Que estas buscando?-->
+            <div>
+            <input class="header__buscador" type="text" name="¿Qué estás buscando?" placeholder="¿Qué estás buscando?">
+            </div>
+            <!--Menu navegable superior derecho-->
+            <nav class="header__nav__derecho">
+                <div>
+                    <img src="../assets/recursos/ayuda.svg" alt="ayuda">
+                    <p>Ayuda</p>
+                </div>
+                <div>
+                    <img src="../assets/recursos/mi cuenta.svg" alt="mi cuenta">
+                    <p>Mi cuenta</p>
+                </div>
+                <div>
+                    <img src="../assets/recursos/mi carrito.svg" alt="mi carrito">
+                    <a class="header__nav__derecho--carrito" href="../pages/mi-carrito.html">Mi carrito</a>
+                </div>
+            </nav>
+        </div>
+        <!--Menu Navegable-->
+        <nav class="header__nav">
+            <ul>
+                <li><a class="header__nav-a" href="../index.html">Inicio</a></li>
+                <li><a class="header__nav-a" href="./hombre.html">Hombre</a></li>
+                <li><a class="header__nav-a" href="./mujer.html">Mujer</a></li>
+                <li><a class="header__nav-a" href="./sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a class="header__nav-a" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main__nosotros-contacto">
+        <article class="main__contacto">
+            <section class="main__contacto--section">
+                <h2>Contactate con nosotros</h2>
+                <br>
+                <p>Si desea solicitar información, rellene y envíe el siguiente formulario. Nuestro personal se pondrá en contacto con usted en breve.</p>
+            </section>
+            <form>
+                <div class="main__form">
+                    <input type="text" name="nombre" class="main__form--imput" placeholder="Nombre">
+                    <input type="email" class="main__form--imput" placeholder="Email" required>
+                    <input type="number" name="numeros" class="main__form--imput" placeholder="Telefono" required>
+                    <input type="text" name="asunto" class="main__form--imput" placeholder="Asunto">
+                    <textarea name="" class="main__form--textarea" cols="50" rows="10" placeholder="Mensaje"></textarea>
+                    <input class="main__form--boton" type="submit"> 
+                    <input class="main__form--boton" type="reset">
+                </div>   
+            </form>
+            <article>
+                <div>
+                    <p>Teléfono</p>
+                    <p>+1111111111</p>
+                </div>
+                <div>
+                    <p>Email</p>
+                    <p>lependu@tienda.com</p>
+                </div>
+                <div>
+                    <p>Dirección</p>
+                    <p>Pendu 1515, Bariloche</p>
+                </div>
+            </article>
+        </article>
+    </main>
+    <footer class="footer__grid">
+        <div>
+            <h4>Horarios de atención</h4>
+            <br>
+            <p>Lunes a Viernes</p>
+            <p> De 10hs a 20hs</p>
+        </div>
+        <div>
+            <h4>Seguinos en:</H4>
+                <br>
+            <img src="../assets/recursos/facebook.svg" alt="facebook">
+            <img src="../assets/recursos/instagram.svg" alt="instagram">
+            <img src="../assets/recursos/twitter.svg" alt="twitter">
+        </div>
+        <div>
+            <p>Copyright LE●PENDU- 2023. Todos los derechos reservados. Defensa de las y los consumidores. Para reclamos 
+            <a  class="footer__link" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario" target="_blank">ingrese aquí.</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
