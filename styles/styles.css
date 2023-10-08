@@ -91,12 +91,6 @@
     border-spacing: 1rem;
 }
 
-.header__nav__carrito--h5{
-    text-align: center;
-    padding: 0.5rem;
-    font-size: 0.9rem;
-}
-
 .header__nav__carrito--trash{
     max-width: 1rem;
 }
@@ -155,7 +149,7 @@
 .header__nav{
     display: flex;
     margin-bottom: 1.5rem;
-    justify-content: center !important;
+    justify-content: center;
     align-items: center;
     height: 3rem;
     font-weight: 500;
@@ -165,7 +159,7 @@
 
 .header__nav--ul{
     display: flex;
-    align-items: center !important;
+    align-items: center;
 }
 
 /*main*/
@@ -360,4 +354,21 @@ a:hover{
 .footer__link{
     color: white;
     text-decoration: none;
+}
+
+/*medias queries*/
+
+@media (max-width:1080px){
+    .body__grid{
+        display: grid;
+        grid-template-rows: 500px auto 300px;
+    }
+
+    .header__grid{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+
 }
