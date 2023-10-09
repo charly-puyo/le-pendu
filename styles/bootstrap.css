@@ -305,11 +305,6 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
-svg {
-  vertical-align: middle;
-}
-
 table {
   caption-side: bottom;
   border-collapse: collapse;
@@ -370,7 +365,7 @@ select:disabled {
   display: none !important;
 }
 
-button,
+/*button,
 [type=button],
 [type=reset],
 [type=submit] {
@@ -381,7 +376,7 @@ button:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
-}
+}*/
 
 ::-moz-focus-inner {
   padding: 0;

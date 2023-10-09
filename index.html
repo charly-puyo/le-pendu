@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="./styles/bootstrap.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>LE●PENDU</title>
@@ -86,18 +86,44 @@
             </ul>
         </nav>
     </header>
-    <!--Main-->
+    <!--main-->
     <main>
-        <img src="./assets/modelo.webp" class="main__img" alt="foto de un modelo">
+        <img class="main__img" src="./assets/modelo.webp" alt="foto de un modelo">
     </main>
     <footer class="footer__grid">
-        <div>
+        <!--menu navegable footer-->
+        <nav class="footer__nav__inferior">
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary" type="button"><img class="footer__nav__inferior--img" src="./assets/recursos/home.svg" alt="home"></button></a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img class="footer__nav__inferior--img" src="./assets/recursos/menu.svg" alt="menu"></button>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <br>
+                    <div class="offcanvas-body">
+                        <nav class="footer__menu">
+                            <ul class="footer__menu--ul">
+                                <li class="footer__menu--li"><a class="footer__menu--a" href="./pages/hombre.html">Hombre</a></li>
+                                <li class="footer__menu--li"><a class="footer__menu--a" href="./pages/mujer.html">Mujer</a></li>
+                                <li class="footer__menu--li"><a class="footer__menu--a" href="./pages/sobre-nosotros.html">Sobre Nosotros</a></li>
+                                <li class="footer__menu--li"><a class="footer__menu--a"  href="./pages/contacto.html">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </a>
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img class="footer__nav__inferior--img" src="./assets/recursos/lupa.svg" alt="buscar"></button></a>
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img class="footer__nav__inferior--img" src="./assets/recursos/mi cuenta.svg" alt="mi cuenta"></button></a>
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img class="footer__nav__inferior--img" src="./assets/recursos/mi carrito.svg" alt="mi carrito"></button></a>
+        </nav>
+        <div class="footer__div">
             <h4>Horarios de atención</h4>
             <br>
             <p>Lunes a Viernes</p>
             <p> De 10hs a 20hs</p>
         </div>
-        <div>
+        <div class="footer__div">
             <h4>Seguinos en:</H4>
             <br>
             <img class="footer__redes" src="./assets/recursos/facebook.svg" alt="facebook">
