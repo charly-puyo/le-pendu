@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/bootstrap.css">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>Mujer</title>
@@ -25,11 +26,11 @@
                     <p>Ayuda</p>
                 </div>
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/recursos/mi cuenta.svg" alt="mi cuenta">
+                    <img class="header__nav__derecho--img" src="../assets/recursos/mi-cuenta.svg" alt="mi cuenta">
                     <p>Mi cuenta</p>
                 </div>
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/recursos/mi carrito.svg" alt="mi carrito">
+                    <img class="header__nav__derecho--img" src="../assets/recursos/mi-carrito.svg" alt="mi carrito">
                     <a class="header__nav__derecho--carrito" href="../pages/mi-carrito.html">Mi carrito</a>
                 </div>
             </nav>
@@ -123,13 +124,39 @@
         </div>
     </main>
     <footer class="footer__grid">
-        <div>
+        <nav class="footer__nav__inferior">
+            <a class="footer__nav__inferior--a" href="../index.html"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/recursos/home.svg" alt="home"></button></a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img src="../assets/recursos/menu.svg" alt="menu"></button>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <br>
+                    <div class="offcanvas-body">
+                        <nav class="footer__menu">
+                            <ul class="footer__menu--ul">
+                                <li class="footer__menu--li"><a class="footer__menu--a" href="../index.html">Inicio</a></li>
+                                <li class="footer__menu--li"><a class="footer__menu--a" href="../pages/hombre.html">Hombre</a></li>
+                                <li class="footer__menu--li"><a class="footer__menu--a" href="#">Mujer</a></li>
+                                <li class="footer__menu--li"><a class="footer__menu--a" href="../pages/sobre-nosotros.html">Sobre Nosotros</a></li>
+                                <li class="footer__menu--li"><a class="footer__menu--a"  href="../pages/contacto.html">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </a>
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/recursos/lupa.svg" alt="buscar"></button></a>
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/recursos/mi-cuenta.svg" alt="mi cuenta"></button></a>
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/recursos/mi-carrito.svg" alt="mi carrito"></button></a>
+        </nav>
+        <div class="footer__div">
             <h4>Horarios de atención</h4>
             <br>
             <p>Lunes a Viernes</p>
             <p> De 10hs a 20hs</p>
         </div>
-        <div>
+        <div class="footer__div">
             <h4>Seguinos en:</H4>
                 <br>
             <img class="footer__redes" src="../assets/recursos/facebook.svg" alt="facebook">
@@ -141,6 +168,7 @@
             <a class="footer__link" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario" target="_blank">ingrese aquí.</a></p>
         </div>
     </footer>
+    <script src="../scripts/bootstrap.bundle.js"></script>
 </body>
 </html>
 

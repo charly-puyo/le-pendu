@@ -1,7 +1,5 @@
-<svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Menu">
-<path id="Vector 9" d="M0 9.67926H21.4428" stroke="black" stroke-width="2"/>
-<path id="Vector 10" d="M0 1H21.4428" stroke="black" stroke-width="2"/>
-<path id="Vector 8" d="M0 17.8479H21.4428" stroke="black" stroke-width="2"/>
-</g>
+<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9.90479H22" stroke="black" stroke-width="2"/>
+<path d="M0 1H22" stroke="black" stroke-width="2"/>
+<path d="M0 18.2856H22" stroke="black" stroke-width="2"/>
 </svg>
