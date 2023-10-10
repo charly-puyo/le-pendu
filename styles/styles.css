@@ -70,54 +70,87 @@
 
 .header__nav__carrito--productos{
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
     grid-template-areas: 
-    "img h5 img"
-    "img h6 h6"
-    "img img h4";
-    width: 320px;
-    height: 120px;
+    "div h5 img"
+    "div h6 h6"
+    "div input h4";
+    justify-content: start;
+    align-content: baseline;
+    width: 360px;
+    height: 110px;
     border-radius: 25px;
-    border: 2px solid violet;
     box-sizing: border-box;
-    margin: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 .header__nav__carrito--img{
-    max-width: 100px;
+    max-width: 108px;
     max-height: 116px;
     border-radius: 25px;
     border: 2px solid #D3D3D3;
     border-spacing: 1rem;
 }
 
+.header__nav__carrito--h5{
+    padding-top: 0.4rem;
+}
+
 .header__nav__carrito--trash{
+    grid-area: img;
     max-width: 1rem;
+    margin: 0.5rem 0 0rem 3rem;
+
 }
 
 .header__nav__carrito--h6{
-    padding: 0.5rem;
+    grid-area: h6;
+    padding-bottom: 1.8rem;
     font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.header__nav__carrito-img{
+    grid-area: div;
+    margin-right: 1.2rem;
 }
 
 .header__nav__carrito--input{
-    margin: 0.5rem;
+    grid-area: input;
     border-radius: 15px;
     border: 1px solid black;
     width: 6rem;
-    height: 2rem;
+    height: 1.5rem;
     cursor: pointer;
 }
 
-.header__nav__carrito--h4-y-h5{
+.header__nav__carrito--h4{
+    grid-area: h4;
     color: #00AAAA;
     font-weight: 500;
     font-size: 1rem;
     text-align: center;
 }
 
-.header__nav__carrito--envio{
+.header__nav__carrito--subtotal{
+    display: flex;
+    justify-content: end;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     height: 2rem;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+.header__nav__carrito--h3{
+    margin-left: 1rem;
+    color: #00AAAA;
+}
+
+
+.header__nav__carrito--envio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 5rem;
     width: 20rem;
 }
 
@@ -131,6 +164,29 @@
     background-color: #00AAA9;
     border: 0.1rem solid #00AAA9;
     border-radius: 0px 10px 10px 0px; 
+}
+
+.header__nav__carrito-h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+    height: 2rem;
+    font-size: 1.4rem;
+    color: #00AAAA;
+    padding-top: 2rem;
+    border-top: 2px solid #D3D3D3;
+}
+
+.header__nav__carrito--button2{
+    color: white;
+    background-color: #00AAA9;
+    border: none;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    width: 17rem;
+    margin-top: 1rem;
+    border-radius: 15px; 
 }
 
 /*nav*/
@@ -288,7 +344,7 @@ a:hover{
     border-radius: 25px;
     border: 2px solid #D3D3D3;
     margin: 40px;
-    padding: 22px;
+    padding: 29px;
     align-items: center;
 }
 
@@ -306,6 +362,7 @@ a:hover{
     background: #D9D9D9;
     border-radius: 1rem;
     padding: 1rem 1rem;
+    margin-right: 4rem;
 }
 
 .main__form--imput{
@@ -333,6 +390,23 @@ a:hover{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+
+
+.main__form__div{
+    display: grid;
+    grid-template-areas: 
+    "img h5"
+    "img p";
+    grid-template-columns: 0.5fr 1fr;
+    margin-bottom: 2rem;
+}
+
+.main__form__img{
+    width: 3rem;
+    grid-area: img;
 }
 
 /*footer*/
@@ -438,31 +512,29 @@ a:hover{
     .main__productos--h5{
         color: #00AAAA;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1rem;
         text-align: center;
     }
     
     .main__productos--p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         text-align: center;
         padding: 0.5rem;
         border-top: 3px solid #00AAA9;
     }
     
     .main_productos--contenedor{
-        width: 140px;
-        height: 220px;
+        width: 150px;
+        height: 212px;
         border-radius: 25px;
         border: 2px solid #D3D3D3;
         box-sizing: border-box;
-        margin: 1rem;
+        margin: 0.7rem;
         justify-content: center;
         align-content: center;
     }
 
-
     /*sobre-nosotros*/
-
 .main__nosotros-contacto{
     display: flex;
     flex-wrap: wrap;
@@ -492,11 +564,10 @@ a:hover{
 }
 
 /*contacto*/
-
 .main__contacto{
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: 670px;
     width: 340px;
     border: none;
     margin: 0;
@@ -518,6 +589,7 @@ a:hover{
     background: none;
     border-radius: 1rem;
     padding: 1rem;
+    margin: 0;
 }
 
 .main__form--imput{
@@ -547,6 +619,15 @@ a:hover{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.main__form__div{
+    margin-top: 2rem;
+}
+
+.main__article__container{
+    margin: 1rem;
+}
+
 
 
     .footer__nav__inferior{
