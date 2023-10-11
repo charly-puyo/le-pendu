@@ -6613,7 +6613,6 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   color: white;
-  margin-bottom: 1rem;
   background-color: #00AAAA;
   padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
 }
