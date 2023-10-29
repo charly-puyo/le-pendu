@@ -1,0 +1,28 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;}
+
+.body__grid{
+    display: grid;
+    grid-template-rows: 14.7rem auto 11rem;
+}    
+
+.header__y__main__ul{
+    list-style-type: none;
+}    
+
+.main__img{
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+@import "max740.scss";
+@import "carrito.scss";
+@import "header.scss";
+@import "productos.scss";
+@import "contacto.scss";
+@import "nosotros.scss";
+@import "footer.scss";
+

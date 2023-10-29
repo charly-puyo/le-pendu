@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/bootstrap.css">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>Mujer</title>
 </head>
@@ -22,49 +22,49 @@
             <!--Menu navegable superior derecho-->
             <nav class="header__nav__derecho">
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/recursos/ayuda.svg" alt="ayuda">
+                    <img class="header__nav__derecho--img" src="../assets/ayuda.svg" alt="ayuda">
                     <p>Ayuda</p>
                 </div>
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/recursos/mi-cuenta.svg" alt="mi cuenta">
+                    <img class="header__nav__derecho--img" src="../assets/mi-cuenta.svg" alt="mi cuenta">
                     <p>Mi cuenta</p>
                 </div>
                 <!--boton de compras-->
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/recursos/mi-carrito.svg" alt="mi carrito">
+                    <img class="header__nav__derecho--img" src="../assets/mi-carrito.svg" alt="mi carrito">
                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Mi carrito</button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img src="../assets/recursos/equis-atras.svg" alt="atras"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img src="../assets/equis-atras.svg" alt="atras"></button>
                             <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito de compras</h5>
                         </div>
-                        <div class="offcanvas-body">
+                        <div class="offcanvas-body header__nav__carrito">
                             <div class="header__nav__carrito--productos">
                                 <div class="header__nav__carrito-img">
-                                    <img class="header__nav__carrito--img" src="../assets/calzado/hombre/1.jpg" alt="foto del producto">
+                                    <img class="header__nav__carrito--img" src="../assets/1.jpg" alt="foto del producto">
                                 </div>
                                 <h5 class="header__nav__carrito--h5">Zapatillas Pensford DC</h5>
-                                <img class="header__nav__carrito--trash" src="../assets/recursos/trash.svg" alt="">
+                                <img class="header__nav__carrito--trash" src="../assets/trash.svg" alt="">
                                 <h6 class="header__nav__carrito--h6">(Cod 6318) (Talle 42)</h6>
                                 <input class="header__nav__carrito--input" type="number" id="tentacles" name="tentacles" min="1" max="100"/>
                                 <h4 class="header__nav__carrito--h4">$55.000</h4>
                             </div>
                             <div class="header__nav__carrito--productos">
                                 <div class="header__nav__carrito-img">
-                                    <img class="header__nav__carrito--img" src="../assets/calzado/mujer/5.jpg" alt="foto del producto">
+                                    <img class="header__nav__carrito--img" src="../assets/5.jpg" alt="foto del producto">
                                 </div>
                                 <h5 class="header__nav__carrito--h5">Zapatillas Midway DC</h5>
-                                <img class="header__nav__carrito--trash" src="../assets/recursos/trash.svg" alt="">
+                                <img class="header__nav__carrito--trash" src="../assets/trash.svg" alt="">
                                 <h6 class="header__nav__carrito--h6">(Cod 7090) (Talle 37)</h6>
                                 <input class="header__nav__carrito--input" type="number" id="tentacles" name="tentacles" min="1" max="100"/>
                                 <h4 class="header__nav__carrito--h4">$45.600</h4>
                             </div>
                             <div class="header__nav__carrito--productos">
                                 <div class="header__nav__carrito-img">
-                                    <img class="header__nav__carrito--img" src="../assets/calzado/hombre/2.jpg" alt="foto del producto">
+                                    <img class="header__nav__carrito--img" src="../assets/2.jpg" alt="foto del producto">
                                 </div>
                                 <h5 class="header__nav__carrito--h5">Zapatillas Manteca DC</h5>
-                                <img class="header__nav__carrito--trash" src="../assets/recursos/trash.svg" alt="">                                <h6 class="header__nav__carrito--h6">(Cod 6318) (Talle 42)</h6>
+                                <img class="header__nav__carrito--trash" src="../assets/trash.svg" alt="">                                <h6 class="header__nav__carrito--h6">(Cod 6318) (Talle 42)</h6>
                                 <input class="header__nav__carrito--input" type="number" id="tentacles" name="tentacles" min="1" max="100"/>
                                 <h4 class="header__nav__carrito--h4">$42.800</h4>
                             </div>
@@ -72,7 +72,7 @@
                                 <h3>Sub total:</h3><h3 class="header__nav__carrito--h3">$143.400</h3>
                             </div>
                             <div class="header__nav__carrito--envio">
-                                <img class="header__nav__carrito--camion" src="../assets/recursos/envio.svg" alt="envio">
+                                <img class="header__nav__carrito--camion" src="../assets/envio.svg" alt="envio">
                                 <h4>Medios de envio</h4>
                                 <input class="header__nav__carrito--codigo-postal" type="text" name="tu codigo postal" placeholder="Tu código postal">
                                 <button class="header__nav__carrito--button" >Calcular</button>
@@ -109,7 +109,7 @@
                 <span>Calzado</span>
             </div>
             <div>
-                <select class="main_nav__selector">
+                <select class="main_nav--selector">
                     <option value="mas vendido" selected>Mas vendido</option>
                     <option value="mayor precio">Mayor precio</option>
                     <option value="menor precio">Menor precio</option>
@@ -133,42 +133,42 @@
             <!--Grid productos-->
             <div class="main__productos">
                 <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/calzado/mujer/1.jpg" alt="foto del producto">
+                    <img class="main__productos--img" src="../assets/9.jpg" alt="foto del producto">
                     <p class="main__productos--p">Zapatillas Court Graffik DC</p>
                     <h5 class="main__productos--h5">$42.000</h5>
                 </div>
                 <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/calzado/mujer/2.jpg" alt="foto del producto">
+                    <img class="main__productos--img" src="../assets/10.jpg" alt="foto del producto">
                     <p class="main__productos--p">Zapatillas Court Graffik DC</p>
                     <h5 class="main__productos--h5">$38.500</h5>
                 </div>
                 <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/calzado/mujer/3.jpg" alt="foto del producto">
+                    <img class="main__productos--img" src="../assets/11.jpg" alt="foto del producto">
                     <p class="main__productos--p">Zapatillas Crisis DC</p>
                     <h5 class="main__productos--h5">$37.900</h5>
                 </div>
                 <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/calzado/mujer/4.jpg" alt="foto del producto">
+                    <img class="main__productos--img" src="../assets/12.jpg" alt="foto del producto">
                     <p class="main__productos--p">Zapatillas Midway DC</p>
                     <h5 class="main__productos--h5">$45.600</h5>
                 </div>
                 <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/calzado/mujer/5.jpg" alt="foto del producto">
+                    <img class="main__productos--img" src="../assets/13.jpg" alt="foto del producto">
                     <p class="main__productos--p">Zapatillas Midway DC</p>
                     <h5 class="main__productos--h5">$45.600</h5>
                 </div>
                 <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/calzado/mujer/6.jpg" alt="foto del producto">
+                    <img class="main__productos--img" src="../assets/14.jpg" alt="foto del producto">
                     <p class="main__productos--p">Zapatillas Pensford DC</p>
                     <h5 class="main__productos--h5">$55.000</h5>
                 </div>
                 <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/calzado/mujer/7.jpg" alt="foto del producto">
+                    <img class="main__productos--img" src="../assets/15.jpg" alt="foto del producto">
                     <p class="main__productos--p">Zapatillas Pensford DC</p>
                     <h5 class="main__productos--h5">$55.000</h5>
                 </div>
                 <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/calzado/mujer/8.jpg" alt="foto del producto">
+                    <img class="main__productos--img" src="../assets/16.jpg" alt="foto del producto">
                     <p class="main__productos--p">Zapatillas Pensford DC</p>
                     <h5 class="main__productos--h5">$55.000</h5>
                 </div>
@@ -177,12 +177,12 @@
     </main>
     <footer class="footer__grid">
         <nav class="footer__nav__inferior">
-            <a class="footer__nav__inferior--a" href="../index.html"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/recursos/home.svg" alt="home"></button></a>
-                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img src="../assets/recursos/menu.svg" alt="menu"></button>
+            <a class="footer__nav__inferior--a" href="../index.html"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/home.svg" alt="home"></button></a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img src="../assets/menu.svg" alt="menu"></button>
 
                 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                     <div class="offcanvas-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img src="../assets/recursos/equis-atras.svg" alt="atras"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img src="../assets/equis-atras.svg" alt="atras"></button>
                     </div>
                     <br>
                     <div class="offcanvas-body">
@@ -198,9 +198,9 @@
                     </div>
                 </div>
             </a>
-            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/recursos/lupa.svg" alt="buscar"></button></a>
-            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/recursos/mi-cuenta.svg" alt="mi cuenta"></button></a>
-            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/recursos/mi-carrito.svg" alt="mi carrito"></button></a>
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/lupa.svg" alt="buscar"></button></a>
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/mi-cuenta.svg" alt="mi cuenta"></button></a>
+            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/mi-carrito.svg" alt="mi carrito"></button></a>
         </nav>
         <div class="footer__div">
             <h4>Horarios de atención</h4>
@@ -211,9 +211,9 @@
         <div class="footer__div">
             <h4>Seguinos en:</H4>
                 <br>
-            <img class="footer__redes" src="../assets/recursos/facebook.svg" alt="facebook">
-            <img class="footer__redes" src="../assets/recursos/instagram.svg" alt="instagram">
-            <img class="footer__redes" src="../assets/recursos/twitter.svg" alt="twitter">
+            <img class="footer__redes" src="../assets/facebook.svg" alt="facebook">
+            <img class="footer__redes" src="../assets/instagram.svg" alt="instagram">
+            <img class="footer__redes" src="../assets/twitter.svg" alt="twitter">
         </div>
         <div>
             <p>Copyright LE●PENDU- 2023. Todos los derechos reservados. Defensa de las y los consumidores. Para reclamos 
