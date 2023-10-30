@@ -92,6 +92,8 @@
   justify-content: flex-start;
 }
 .header__nav__carrito .header__nav__carrito--camion {
+  height: 1.5rem;
+  width: auto;
   margin: 0 1rem 0 1rem;
 }
 .header__nav__carrito .header__nav__carrito-h4 {
@@ -372,6 +374,7 @@
 }
 .footer__grid .footer__redes {
   width: 3rem;
+  height: 3rem;
 }
 .footer__grid .footer__link {
   color: white;
@@ -382,6 +385,7 @@
   .body__grid {
     display: flex;
     flex-direction: column;
+    height: 360px;
     /*productos*/
     /*sobre-nosotros*/
     /*contacto*/
@@ -554,13 +558,17 @@
     height: 3rem;
     padding: 0;
   }
-  .body__grid .footer__nav__inferior--ul {
-    text-decoration: none;
-  }
-  .body__grid .footer__nav__inferior--button {
+  .body__grid .footer__nav__inferior .footer__nav__inferior--button {
     appearance: none;
     background-color: none;
     border: none;
+  }
+  .body__grid .footer__nav__inferior .footer__nav__inferior--button .footer__nav__inferior--img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .body__grid .footer__nav__inferior--ul {
+    text-decoration: none;
   }
   .body__grid .offcanvas, .body__grid .offcanvas-xxl, .body__grid .offcanvas-xl, .body__grid .offcanvas-lg, .body__grid .offcanvas-md, .body__grid .offcanvas-sm {
     --bs-offcanvas-width: 300px;

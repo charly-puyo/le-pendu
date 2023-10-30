@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" fill="none"><circle cx="11.25" cy="11.25" r="10.25" stroke="#000" stroke-width="2"/><path stroke="#000" stroke-width="2" d="m19.375 18.75 6.25 6.25"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="px" height="px" viewBox="0 0 19 19" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 21.498972 11.252056 C 21.498972 16.912829 16.908306 21.499178 11.25185 21.499178 C 5.589844 21.499178 0.999178 16.912829 0.999178 11.252056 C 0.999178 5.591283 5.589844 0.999589 11.25185 0.999589 C 16.908306 0.999589 21.498972 5.591283 21.498972 11.252056 Z M 21.498972 11.252056 " transform="matrix(0.703704,0,0,0.730769,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 19.372944 18.751645 L 25.623355 25.000411 " transform="matrix(0.703704,0,0,0.730769,0,0)"/>
+</g>
+</svg>

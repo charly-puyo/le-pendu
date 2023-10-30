@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><path stroke="#fff" stroke-width="2.129" d="m1 1 9 9m9 9-9-9m0 0 9-9L1 19"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="px" height="px" viewBox="0 0 15 15" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:2.129;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 1 1 L 10 10 M 19 19 L 10 10 M 10 10 L 19 1 L 1 19 " transform="matrix(0.75,0,0,0.75,0,0)"/>
+</g>
+</svg>
