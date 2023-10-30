@@ -18,13 +18,13 @@
     object-fit: cover;
 }
 
-@import "carrito.scss";
-@import "header.scss";
-@import "productos.scss";
-@import "contacto.scss";
-@import "nosotros.scss";
-@import "footer.scss";
+@import "_carrito.scss";
+@import "_header.scss";
+@import "_productos.scss";
+@import "_contacto.scss";
+@import "_nosotros.scss";
+@import "_footer.scss";
 
-@import "mixins.scss";
+@import "_medias-queries.scss";
 
 
