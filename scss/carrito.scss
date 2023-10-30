@@ -2,9 +2,9 @@
     .header__nav__carrito--productos{
         display: grid;
         grid-template-areas: 
-        "div h5 img"
-        "div h6 h6"
-        "div input h4";
+        "div h4 img"
+        "div h5 h5"
+        "div input h6";
         justify-content: start;
         align-content: baseline;
         width: 110px;
@@ -20,17 +20,18 @@
         border: 2px solid #D3D3D3;
         border-spacing: 1rem;
     }
-    .header__nav__carrito--h5{
+    .header__nav__carrito--h4{
         padding-top: 0.4rem;
         width: 11rem;
+        font-size: 0.9rem;
     }
     .header__nav__carrito--trash{
         grid-area: img;
         max-width: 1rem;
         margin: 0.5rem 0 0rem 3rem;
     }
-    .header__nav__carrito--h6{
-        grid-area: h6;
+    .header__nav__carrito--h5{
+        grid-area: h5;
         padding-bottom: 1.8rem;
         width: 8rem;
         font-size: 0.6rem;
@@ -48,8 +49,8 @@
         height: 1.5rem;
         cursor: pointer;
     }
-    .header__nav__carrito--h4{
-        grid-area: h4;
+    .header__nav__carrito--h6{
+        grid-area: h6;
         color: #00AAAA;
         font-weight: 500;
         font-size: 1rem;
