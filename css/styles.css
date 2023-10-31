@@ -152,6 +152,7 @@
 }
 .header__grid .header__logo {
   height: 160px;
+  width: auto;
 }
 .header__grid .header__buscador {
   padding: 12px;
@@ -174,6 +175,9 @@
   flex-direction: column;
   margin: 20px;
   align-items: center;
+}
+.header__grid .header__nav__derecho .header__nav__derecho--div .header__nav__derecho--atras {
+  height: 0.5rem;
 }
 .header__grid .header__nav__derecho .header__nav__derecho--img {
   width: 40px;
@@ -395,6 +399,7 @@
   }
   .body__grid .header__logo {
     height: 120px;
+    width: auto;
   }
   .body__grid .header__buscador {
     display: none;

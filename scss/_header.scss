@@ -5,6 +5,7 @@
     align-items: center;
     .header__logo{
         height: 160px;
+        width: auto;
     }
     .header__buscador{
         padding: 12px;
@@ -27,6 +28,9 @@
             flex-direction: column;
             margin: 20px;
             align-items: center;
+            .header__nav__derecho--atras{
+                height: 0.5rem;
+            }
         }
 
         .header__nav__derecho--img{
