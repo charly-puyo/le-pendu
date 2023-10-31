@@ -2,7 +2,6 @@
     .body__grid{
         display: flex;
         flex-direction: column;
-        height: 360px;
         .header__grid{
             grid-template-columns: 1fr;
         }
@@ -196,22 +195,17 @@
             justify-content: space-around;
             height: 3rem;
             padding: 0;
-            .footer__nav__inferior--button{
-                appearance: none;
-                background-color: none;
-                border: none;
-                .footer__nav__inferior--img{
-                    width: 1.5rem;
-                    height: 1.5rem;
-                }
-            }
         }
     
         .footer__nav__inferior--ul{
             text-decoration: none;
         }
     
-
+        .footer__nav__inferior--button{
+            appearance: none;
+            background-color: none;
+            border: none;
+        }
     
         .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm  {
             --bs-offcanvas-width: 300px;
