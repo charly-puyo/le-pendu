@@ -5,36 +5,28 @@
         .header__grid{
             grid-template-columns: 1fr;
         }
-    
         .header__logo{
             height: 120px;
             width: auto;
         }
-    
         .header__buscador{
             display: none;
         }
-    
         .header__nav__derecho{
             display: none;
         }
-    
         .header__nav{
             height: 1rem;
         }
-    
         .header__y__main__ul {
             display: none;
         }
-        
         .main__img{
             max-width: 100%;
+            margin: 0;
             height: 505px;
-        }
-    
-        
+        }    
         /*productos*/
-    
         .main__nav{
             display: flex;
             font-size: 0.8rem;
@@ -53,12 +45,9 @@
                 border: 1.5px solid #D3D3D3;
             }
         }
-    
-        
         .main__nav__izquierdo{
             display: none;
         }
-    
         .main__productos{
             display: flex;
             flex-direction: row;
@@ -66,27 +55,23 @@
             justify-content: center;
             border: none;
         }
-        
         .main__productos--img{
             max-width: 80%;
             margin: 0.9rem;
             border-color:  2px solid #00AAA9;
         }
-        
         .main__productos--h5{
             color: #00AAAA;
             font-weight: 700;
             font-size: 1rem;
             text-align: center;
         }
-        
         .main__productos--p{
             font-size: 0.7rem;
             text-align: center;
             padding: 0.5rem;
             border-top: 3px solid #00AAA9;
         }
-        
         .main_productos--contenedor{
             width: 150px;
             height: 212px;
@@ -97,7 +82,6 @@
             justify-content: center;
             align-content: center;
         }
-    
         /*sobre-nosotros*/
         .main__nosotros__contacto{
             display: flex;
@@ -139,7 +123,6 @@
                 }
             }
         }
-    
         /*contacto*/
         .main__contacto{
             display: flex;
@@ -161,7 +144,6 @@
                 font-size: 0.8rem;
             }
         }
-    
         .main__contacto--form{
             display: flex;
             flex-wrap: wrap;
@@ -205,11 +187,18 @@
         .main__contacto--div{
             margin-top: 1.5rem;
         }
-    
         .main__article__container{
             margin: 1rem;
         }
-        
+        /*mi-cuenta*/
+        .main__mi-cuenta{
+            height: 270px;
+            width: 340px;
+            padding: 20px;
+            margin: 26px;
+        }
+
+
         /*footer*/
         .footer__nav__inferior{
             position: fixed;
@@ -221,22 +210,25 @@
             justify-content: space-around;
             height: 3rem;
             padding: 0;
+            .footer__nav__inferior--input{
+                margin-top: 1rem;
+                padding: 12px;
+                width: 15rem;
+                border-radius: 25px;
+                border: 1px solid black;
+            }
         }
-    
         .footer__nav__inferior--ul{
             text-decoration: none;
         }
-    
         .footer__nav__inferior--button{
             appearance: none;
             background-color: none;
             border: none;
         }
-    
         .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm  {
             --bs-offcanvas-width: 300px;
         }
-    
         .footer__menu--li{
             border-top: 1rem #D3D3D3;
             font-size: 1.5rem;
@@ -244,12 +236,10 @@
             margin: 1rem;
             list-style-type: none;
         }
-    
         .footer__menu--a{
             text-decoration: none;
             color: black;
         }
-    
         .footer__grid{
             display: flex;
             height: 100%;
@@ -264,11 +254,9 @@
             height: 14rem;
             padding-bottom: 3.3rem;
         }
-        
         .footer__redes{
             width: 2rem;
         }
-    
         .footer__div{
             margin: 1rem;
             padding: 0;

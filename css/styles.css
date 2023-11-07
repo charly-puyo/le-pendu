@@ -442,6 +442,7 @@ a {
     /*productos*/
     /*sobre-nosotros*/
     /*contacto*/
+    /*mi-cuenta*/
     /*footer*/
   }
   .body__grid .header__grid {
@@ -465,6 +466,7 @@ a {
   }
   .body__grid .main__img {
     max-width: 100%;
+    margin: 0;
     height: 505px;
   }
   .body__grid .main__nav {
@@ -628,6 +630,12 @@ a {
   .body__grid .main__article__container {
     margin: 1rem;
   }
+  .body__grid .main__mi-cuenta {
+    height: 270px;
+    width: 340px;
+    padding: 20px;
+    margin: 26px;
+  }
   .body__grid .footer__nav__inferior {
     position: fixed;
     bottom: 0;
@@ -638,6 +646,13 @@ a {
     justify-content: space-around;
     height: 3rem;
     padding: 0;
+  }
+  .body__grid .footer__nav__inferior .footer__nav__inferior--input {
+    margin-top: 1rem;
+    padding: 12px;
+    width: 15rem;
+    border-radius: 25px;
+    border: 1px solid black;
   }
   .body__grid .footer__nav__inferior--ul {
     text-decoration: none;
