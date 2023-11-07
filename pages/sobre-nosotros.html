@@ -26,16 +26,16 @@
             <!--Menu navegable superior derecho-->
             <nav class="header__nav__derecho">
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/ayuda.svg" alt="ayuda">
-                    <p>Ayuda</p>
+                    <button class="btn btn-primary" type="button"><a href="../pages/contacto.html"><img class="header__nav__derecho--img" src="../assets/ayuda.svg" alt="mi carrito"></a></button>
+                    <button class="btn btn-primary" type="button"><a href="../pages/contacto.html"><p class="header__nav__derecho--p">Ayuda</p></a></button>
                 </div>
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/mi-cuenta.svg" alt="mi cuenta">
-                    <p>Mi cuenta</p>
+                    <button class="btn btn-primary" type="button"><a href="../pages/mi-cuenta.html"><img class="header__nav__derecho--img" src="../assets/mi-cuenta.svg" alt="mi carrito"></a></button>
+                    <button class="btn btn-primary" type="button"><a href="../pages/mi-cuenta.html"><p class="header__nav__derecho--p">Mi cuenta</p></a></button>
                 </div>
                 <!--boton de compras-->
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/mi-carrito.svg" alt="mi carrito">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img class="header__nav__derecho--img" src="../assets/mi-carrito.svg" alt="mi carrito"></button>
                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Mi carrito</button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
@@ -60,7 +60,7 @@
                                 <h4 class="header__nav__carrito--h4">Zapatillas Midway DC</h4>
                                 <img class="header__nav__carrito--trash" src="../assets/trash.svg" alt="eliminar del carrito">
                                 <h5 class="header__nav__carrito--h5">(Cod 7090) (Talle 37)</h5>
-                                <input class="header__nav__carrito--input" type="number" id="tentacles" name="tentacles" min="1" max="100"/>
+                                <input class="header__nav__carrito--input" type="number" name="tentacles" min="1" max="100"/>
                                 <h6 class="header__nav__carrito--h6">$45.600</h6>
                             </div>
                             <div class="header__nav__carrito--productos">
@@ -70,7 +70,7 @@
                                 <h4 class="header__nav__carrito--h4">Zapatillas Manteca DC</h4>
                                 <img class="header__nav__carrito--trash" src="../assets/trash.svg" alt="eliminar del carrito">                                
                                 <h5 class="header__nav__carrito--h5">(Cod 6318) (Talle 42)</h5>
-                                <input class="header__nav__carrito--input" type="number" id="tentacles" name="tentacles" min="1" max="100"/>
+                                <input class="header__nav__carrito--input" type="number" name="tentacles" min="1" max="100"/>
                                 <h6 class="header__nav__carrito--h6">$42.800</h6>
                             </div>
                             <div class="header__nav__carrito--subtotal">
@@ -78,10 +78,10 @@
                             </div>
                             <div class="header__nav__carrito--envio">
                                 <img class="header__nav__carrito--camion" src="../assets/envio.svg" alt="envio">
-                                <h4>Medios de envio</h4>
+                                <h4>Medios de envío</h4>
                                 <input class="header__nav__carrito--codigo-postal" type="text" name="tu codigo postal" placeholder="Tu código postal">
                                 <button class="header__nav__carrito--button" >Calcular</button>
-                                <h4 class="header__nav__carrito-h4">No se mi código postal</h4>
+                                <h4 class="header__nav__carrito-h4">No sé mi código postal</h4>
                             </div>
                             <div class="header__nav__carrito-h3">
                                 <h3>Total:</h3><h3>$143.400</h3>
@@ -104,14 +104,15 @@
         </nav>
     </header>
     <main class="main__nosotros__contacto">
+        <h1 class="main__nosotros__contacto--h1">Sobre Nosotros</h1>
         <article class="main_article--fondo">
             <section class="main_article--section">
-                <h1 class="main__article--h1">Sobre Nosotros</h1>
+                <h1 class="main__nosotros__contacto--h1-2">Sobre Nosotros</h1>
                 <br>
-                <p>Le-Pendu es mucho más que una tienda de ropa. Es el resultado de una historia de resiliencia y un sueño que se hizo realidad en medio de tiempos difíciles. Fundada por Carlos, un emprendedor apasionado por la moda, esta tienda nació en plena pandemia cuando enfrentaba el desafío de la pérdida de su empleo. Carlos decidió convertir la adversidad en oportunidad y crear un negocio que no solo le brindara un ingreso, sino que también le permitiera expresar su pasión por la moda. <br> La filosofía de Le-Pendu es simple pero poderosa: celebrar la diversidad, la inclusión y la autenticidad. En un mundo en constante cambio, Carlos quería crear un espacio donde las personas pudieran sentirse cómodas siendo ellas mismas y expresar su individualidad a través de la moda. Con una amplia variedad de estilos y prendas de vestir para todas las edades, Le-Pendu se convirtió en un punto de encuentro para aquellos que buscan ropa que refleje su personalidad.</p>
+                <p class="main__article--p">Le-Pendu es mucho más que una tienda de ropa. Es el resultado de una historia de resiliencia y un sueño que se hizo realidad en medio de tiempos difíciles. Fundada por Carlos, un emprendedor apasionado por la moda, esta tienda nació en plena pandemia cuando enfrentaba el desafío de la pérdida de su empleo. Carlos decidió convertir la adversidad en oportunidad y crear un negocio que no solo le brindara un ingreso, sino que también le permitiera expresar su pasión por la moda. <br> La filosofía de Le-Pendu es simple pero poderosa: celebrar la diversidad, la inclusión y la autenticidad. En un mundo en constante cambio, Carlos quería crear un espacio donde las personas pudieran sentirse cómodas siendo ellas mismas y expresar su individualidad a través de la moda. Con una amplia variedad de estilos y prendas de vestir para todas las edades, Le-Pendu se convirtió en un punto de encuentro para aquellos que buscan ropa que refleje su personalidad.</p>
             </section>
-            <div>
-                <img  class="main__article--multimedia" src="../assets/Local.png" alt="foto del local">
+            <div class="main__article--div">
+                <img  class="main__article--multimedia" src="../assets/local.jpg" alt="foto del local">
                 <iframe class="main__article--multimedia" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192339.19916950475!2d-71.50472570020341!3d-41.127976779920324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1694664406231!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </article>
@@ -140,7 +141,7 @@
                 </div>
             </a>
             <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/lupa.svg" alt="buscar"></button></a>
-            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/mi-cuenta.svg" alt="mi cuenta"></button></a>
+            <a class="footer__nav__inferior--a" href="../pages/mi-cuenta.html"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/mi-cuenta.svg" alt="mi cuenta"></button></a>
             <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/mi-carrito.svg" alt="mi carrito"></button></a>
         </nav>
         <!--informacion fija del footer-->
@@ -157,7 +158,7 @@
             <a href="https://www.instagram.com/" target="_blank"><img class="footer__redes" src="../assets/instagram.svg" alt="instagram"></a>
             <a href="https://twitter.com/?lang=es" target="_blank"><img class="footer__redes" src="../assets/twitter.svg" alt="twitter"></a>
         </div>
-        <div>
+        <div class="footer__div">
             <p>Copyright LE●PENDU- 2023. Todos los derechos reservados. Defensa de las y los consumidores. Para reclamos 
             <a class="footer__link" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario" target="_blank">ingrese aquí.</a></p>
         </div>

@@ -26,16 +26,16 @@
             <!--Menu navegable superior derecho-->
             <nav class="header__nav__derecho">
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/ayuda.svg" alt="ayuda">
-                    <p>Ayuda</p>
+                    <button class="btn btn-primary" type="button"><a href="../pages/contacto.html"><img class="header__nav__derecho--img" src="../assets/ayuda.svg" alt="mi carrito"></a></button>
+                    <button class="btn btn-primary" type="button"><a href="../pages/contacto.html"><p class="header__nav__derecho--p">Ayuda</p></a></button>
                 </div>
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/mi-cuenta.svg" alt="mi cuenta">
-                    <p>Mi cuenta</p>
+                    <button class="btn btn-primary" type="button"><a href="../pages/mi-cuenta.html"><img class="header__nav__derecho--img" src="../assets/mi-cuenta.svg" alt="mi carrito"></a></button>
+                    <button class="btn btn-primary" type="button"><a href="../pages/mi-cuenta.html"><p class="header__nav__derecho--p">Mi cuenta</p></a></button>
                 </div>
                 <!--boton de compras-->
                 <div class="header__nav__derecho--div">
-                    <img class="header__nav__derecho--img" src="../assets/mi-carrito.svg" alt="mi carrito">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img class="header__nav__derecho--img" src="../assets/mi-carrito.svg" alt="mi carrito"></button>
                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Mi carrito</button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
@@ -50,7 +50,7 @@
                                 <h4 class="header__nav__carrito--h4">Zapatillas Pensford DC</h4>
                                 <img class="header__nav__carrito--trash" src="../assets/trash.svg" alt="eliminar del carrito">
                                 <h5 class="header__nav__carrito--h5">(Cod 6318) (Talle 42)</h5>
-                                <input class="header__nav__carrito--input" type="number" id="tentacles" name="tentacles" min="1" max="100"/>
+                                <input class="header__nav__carrito--input" type="number" name="tentacles" min="1" max="100"/>
                                 <h6 class="header__nav__carrito--h6">$55.000</h6>
                             </div>
                             <div class="header__nav__carrito--productos">
@@ -60,7 +60,7 @@
                                 <h4 class="header__nav__carrito--h4">Zapatillas Midway DC</h4>
                                 <img class="header__nav__carrito--trash" src="../assets/trash.svg" alt="eliminar del carrito">
                                 <h5 class="header__nav__carrito--h5">(Cod 7090) (Talle 37)</h5>
-                                <input class="header__nav__carrito--input" type="number" id="tentacles" name="tentacles" min="1" max="100"/>
+                                <input class="header__nav__carrito--input" type="number" name="tentacles" min="1" max="100"/>
                                 <h6 class="header__nav__carrito--h6">$45.600</h6>
                             </div>
                             <div class="header__nav__carrito--productos">
@@ -70,7 +70,7 @@
                                 <h4 class="header__nav__carrito--h4">Zapatillas Manteca DC</h4>
                                 <img class="header__nav__carrito--trash" src="../assets/trash.svg" alt="eliminar del carrito">                                
                                 <h5 class="header__nav__carrito--h5">(Cod 6318) (Talle 42)</h5>
-                                <input class="header__nav__carrito--input" type="number" id="tentacles" name="tentacles" min="1" max="100"/>
+                                <input class="header__nav__carrito--input" type="number" name="tentacles" min="1" max="100"/>
                                 <h6 class="header__nav__carrito--h6">$42.800</h6>
                             </div>
                             <div class="header__nav__carrito--subtotal">
@@ -78,10 +78,10 @@
                             </div>
                             <div class="header__nav__carrito--envio">
                                 <img class="header__nav__carrito--camion" src="../assets/envio.svg" alt="envio">
-                                <h4>Medios de envio</h4>
+                                <h4>Medios de envío</h4>
                                 <input class="header__nav__carrito--codigo-postal" type="text" name="tu codigo postal" placeholder="Tu código postal">
                                 <button class="header__nav__carrito--button" >Calcular</button>
-                                <h4 class="header__nav__carrito-h4">No se mi código postal</h4>
+                                <h4 class="header__nav__carrito-h4">No sé mi código postal</h4>
                             </div>
                             <div class="header__nav__carrito-h3">
                                 <h3>Total:</h3><h3>$143.400</h3>
@@ -204,7 +204,7 @@
                 </div>
             </a>
             <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/lupa.svg" alt="buscar"></button></a>
-            <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/mi-cuenta.svg" alt="mi cuenta"></button></a>
+            <a class="footer__nav__inferior--a" href="./mi-cuenta.html"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/mi-cuenta.svg" alt="mi cuenta"></button></a>
             <a class="footer__nav__inferior--a" href="#"><button class="footer__nav__inferior--button btn btn-primary"><img src="../assets/mi-carrito.svg" alt="mi carrito"></button></a>
         </nav>
         <!--informacion fija del footer-->
@@ -221,7 +221,7 @@
             <a href="https://www.instagram.com/" target="_blank"><img class="footer__redes" src="../assets/instagram.svg" alt="instagram"></a>
             <a href="https://twitter.com/?lang=es" target="_blank"><img class="footer__redes" src="../assets/twitter.svg" alt="twitter"></a>
         </div>
-        <div>
+        <div class="footer__div">
             <p>Copyright LE●PENDU- 2023. Todos los derechos reservados. Defensa de las y los consumidores. Para reclamos 
             <a class="footer__link" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario" target="_blank">ingrese aquí.</a></p>
         </div>

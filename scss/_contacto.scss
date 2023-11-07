@@ -7,11 +7,8 @@
     border: 2px solid #D3D3D3;
     background-color: white;
     margin: 40px;
-    padding: 29px;
+    padding: 40px;
     align-items: center;
-    .main__contacto--section{
-        width: 500px;
-    }
     .main__contacto--form{
         display: flex;
         flex-wrap: wrap;
@@ -24,7 +21,7 @@
         padding: 1rem 1rem;
         margin-right: 4rem;
         .main__contacto--imput{
-            width: 220px;
+            width: 210px;
             height: 30px;
             border-radius: 5px;
             border: none;

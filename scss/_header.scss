@@ -18,7 +18,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
         align-items: center;
-        .header__nav__derecho--carrito{
+        .header__nav__derecho--p{
             color: black;
             text-decoration: none;
         }
@@ -30,6 +30,12 @@
             align-items: center;
             .header__nav__derecho--atras{
                 height: 0.5rem;
+            }
+            .header__nav__derecho--p{
+                text-decoration: none;
+            }
+            .header__nav__derecho--p:hover{
+                color: #00AAA9;
             }
         }
 
