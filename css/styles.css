@@ -24,6 +24,15 @@ a {
   object-fit: cover;
 }
 
+.main__error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__error .error404 {
+  object-fit: cover;
+}
+
 .header__nav__carrito .header__nav__carrito--productos {
   display: grid;
   grid-template-areas: "div h4 img" "div h5 h5" "div input h6";
@@ -760,6 +769,7 @@ a {
   .body__grid .footer__nav__carrito--codigo-postal {
     border-radius: 10px 0 0 10px;
     height: 2.5rem;
+    width: 160px;
     text-align: center;
     border: 0.1rem solid #D3D3D3;
     margin: 1rem 0 1rem 0rem;
@@ -816,6 +826,16 @@ a {
   .body__grid .footer__div {
     margin: 1rem;
     padding: 0;
+  }
+  .main__error {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+  }
+  .main__error .error404 {
+    width: 240px;
+    object-fit: fill;
   }
 }
 @media (min-width: 741px) {

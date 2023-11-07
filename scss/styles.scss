@@ -22,6 +22,15 @@ a{
     object-fit: cover;
 }
 
+.main__error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .error404{
+        object-fit: cover;
+    }
+}
+
 @import "_carrito.scss";
 @import "_header.scss";
 @import "_productos.scss";

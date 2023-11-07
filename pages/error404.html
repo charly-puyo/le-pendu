@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--descripcion-->
-    <meta name="description" content="Explora nuestra gama de ropa deportiva, diseñada para mantenerte cómodo durante tus entrenamientos.">
+    <meta name="description" content="Somos una tienda de ropa comprometida con la calidad y la moda. Descubre nuestra historia y misión.">
     <!--palabras claves-->
-    <meta name="keywords" content="Moda masculina, Ropa para hombres, Camisas para caballeros, Ropa casual para hombres, Ropa de oficina para hombres, Ropa deportiva masculina, Pantalones de hombre, Chaquetas y abrigos para hombres, Ropa de baño para hombres, Ropa de noche para hombres, Camisetas para hombres, Ropa interior masculina, Moda de tallas grandes para hombres, Accesorios masculinos, Pantalones vaqueros para hombres, Trajes para hombres, Ropa de invierno para hombres, Ropa de verano para hombres, Sombreros y gorras para hombres, Ofertas de moda masculina">
+    <meta name="keywords" content="Historia de la tienda, Nuestra misión, Valores de la empresa, Equipo de diseño, Compromiso con la moda, Filosofía de la moda, Visión de la tienda, Historia de la marca, Nuestra pasión por la moda, Experiencia en la industria, Compromiso con la calidad, Valores de sostenibilidad, Innovación en la moda, Nuestra historia, Conexión con los clientes, Nuestra visión, Dedicación a la moda, Compromiso con la excelencia, Fundadores de la tienda, Trasfondo de la empresa">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Ropa para Hombre</title>
+    <title>Sobre Nosotros</title>
 </head>
 <body class="body__grid">
     <header>
@@ -30,8 +30,8 @@
                     <button class="btn btn-primary" type="button"><a href="../pages/contacto.html"><p class="header__nav__derecho--p">Ayuda</p></a></button>
                 </div>
                 <div class="header__nav__derecho--div">
-                    <button class="btn btn-primary" type="button"><a href="../pages/mi-cuenta.html"><img class="header__nav__derecho--img" src="../assets/mi-cuenta.svg" alt="mi carrito"></a></button>
-                    <button class="btn btn-primary" type="button"><a href="../pages/mi-cuenta.html"><p class="header__nav__derecho--p">Mi cuenta</p></a></button>
+                    <button class="btn btn-primary" type="button"><a href="#"><img class="header__nav__derecho--img" src="../assets/mi-cuenta.svg" alt="mi carrito"></a></button>
+                    <button class="btn btn-primary" type="button"><a href="#"><p class="header__nav__derecho--p">Mi cuenta</p></a></button>
                 </div>
                 <!--boton de compras-->
                 <div class="header__nav__derecho--div">
@@ -39,7 +39,7 @@
                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Mi carrito</button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img src="../assets/equis-atras.svg" alt="atras"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img class="header__nav__derecho--atras" src="../assets/equis-atras.svg" alt="atras"></button>
                             <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito de compras</h5>
                         </div>
                         <div class="offcanvas-body header__nav__carrito">
@@ -50,7 +50,7 @@
                                 <h4 class="header__nav__carrito--h4">Zapatillas Pensford DC</h4>
                                 <img class="header__nav__carrito--trash" src="../assets/trash.svg" alt="eliminar del carrito">
                                 <h5 class="header__nav__carrito--h5">(Cod 6318) (Talle 42)</h5>
-                                <input class="header__nav__carrito--input" type="number" name="tentacles" min="1" max="100"/>
+                                <input class="header__nav__carrito--input" type="number" id="tentacles" name="tentacles" min="1" max="100"/>
                                 <h6 class="header__nav__carrito--h6">$55.000</h6>
                             </div>
                             <div class="header__nav__carrito--productos">
@@ -103,84 +103,11 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <!--form-selec-->
-        <section class="main__nav">
-            <div>
-                <a class="main__nav--a" href="../index.html">Inicio</a>
-                <span>></span>
-                <span>Hombres</span>
-                <span>></span>
-                <span>Calzado</span>
-            </div>
-            <div>
-                <select class="main_nav--selector">
-                    <option value="mas vendido" selected>Mas vendido</option>
-                    <option value="mayor precio">Mayor precio</option>
-                    <option value="menor precio">Menor precio</option>
-                </select>
-            </div>
-        </section>
-        <div  class="main__grid">
-            <!--menu-solapa-izquierdo-->
-            <Article class="main__nav__izquierdo">
-                <nav>
-                    <ul class="header__y__main__ul">
-                        <h1>Hombres</h1>
-                        <li>Calzado</li>
-                        <li>Accesorios</li>
-                        <li>Camisas</li>
-                        <li>Buzos</li>
-                        <li>Pantalones</li>
-                    </ul>
-                </nav>
-            </Article>
-            <!--Grid productos-->
-            <div class="main__productos">
-                <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/1.jpg" alt="foto del producto">
-                    <p class="main__productos--p">Zapatillas Pensford DC</p>
-                    <h5 class="main__productos--h5">$55.000</h5>
-                </div>
-                <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/2.jpg" alt="foto del producto">
-                    <p class="main__productos--p">Zapatillas Manteca DC</p>
-                    <h5 class="main__productos--h5">$42.800</h5>
-                </div>
-                <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/3.jpg" alt="foto del producto">
-                    <p class="main__productos--p">Zapatillas Manteca DC</p>
-                    <h5 class="main__productos--h5">$45.700</h5>
-                </div>
-                <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/4.jpg" alt="foto del producto">
-                    <p class="main__productos--p">Zapatillas Pensford DC</p>
-                    <h5 class="main__productos--h5">$60.000</h5>
-                </div>
-                <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/5.jpg" alt="foto del producto">
-                    <p class="main__productos--p">Zapatillas High-Top</p>
-                    <h5 class="main__productos--h5">$59.500</h5>
-                </div>
-                <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/6.jpg" alt="foto del producto">
-                    <p class="main__productos--p">Zapatillas Stag Rs Dc</p>
-                    <h5 class="main__productos--h5">$39.800</h5>
-                </div>
-                <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/7.jpg" alt="foto del producto">
-                    <p class="main__productos--p">Zapatillas Pure DC</p>
-                    <h5 class="main__productos--h5">$45.000</h5>
-                </div>
-                <div class="main_productos--contenedor">
-                    <img class="main__productos--img" src="../assets/8.jpg" alt="foto del producto">
-                    <p class="main__productos--p">Zapatillas Plaza DC</p>
-                    <h5 class="main__productos--h5">$38.000</h5>
-                </div>
-            </div>
-        </div>
+    <!--main-->
+    <main class="main__error">
+        <img class="error404" src="../assets/error1.png" alt="error 404">
+        <img class="error404" src="../assets/error2.png" alt="error 404">
     </main>
-    <!--footer-->
     <footer class="footer__grid">
         <!--menu navegable footer-->
         <nav class="footer__nav__inferior">
@@ -270,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-        </nav>    
+        </nav>
         <!--informacion fija del footer-->
         <div class="footer__div">
             <h4>Horarios de atención</h4>
@@ -293,4 +220,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
-
