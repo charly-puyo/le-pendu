@@ -18,14 +18,16 @@ a{
 
 .main__img{
     width: 100%;
+    height: auto;
     margin-top: 40px;
     object-fit: cover;
 }
 
 .main__error{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
     .error404{
         object-fit: cover;
     }
